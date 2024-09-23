@@ -1,0 +1,65 @@
+[
+    {
+        "id": 1,
+        "drinkName": "Trà Chanh Thái Dương",
+        "price": "55.000 VNĐ",
+        "category": "BÁN CHẠY NHẤT ✨",
+        "description": "Món nước giải nhiệt cho mùa hè nóng bức, hương vị bùng nổ và sảng khoái sẽ khiến bạn muốn bay lên tận Hệ Mặt Trời.",
+        "ingredients": "Thành phần: trà đen, chanh tươi, thiên thạch, đá.",
+        "imageName": "image1"
+    },
+    {
+        "id": 2,
+        "drinkName": "Mộccha Latte",
+        "price": "55.000 VNĐ",
+        "category": "BÁN CHẠY NHẤT ✨",
+        "description": "Thưởng thức vị Matcha Latte chuẩn chỉ, đem lại cảm giác dịu thanh, trải nghiệm ngay Mộc Cha Latte thật sự khó cưỡng.",
+        "ingredients": "Thành phần: bột matcha, sữa, syrup vanilla, nước.",
+        "imageName": "image2"
+    },
+    {
+        "id": 3,
+        "drinkName": "Trà Đen Marschiato",
+        "price": "49.000 VNĐ",
+        "category": "BÁN CHẠY NHẤT ✨",
+        "description": "Vị Marschiato độc đáo duy nhất có tại HAHA Coffee khiến mọi khách hàng đều muốn ghé mua thêm lần nữa.",
+        "ingredients": "Thành phần: kem béo lỏng, sữa tươi, caramel syrup, muối ăn.",
+        "imageName": "image3"
+    },
+    {
+        "id": 4,
+        "drinkName": "Trà Đào Cam Sả-turn",
+        "price": "49.000 VNĐ",
+        "category": "MÓN NGON PHẢI THỬ ✨",
+        "description": "Vị chua và ngọt dịu đến từ sự kết hợp của cam và đào, cộng hưởng với hương thơm của sả sẽ khiến để lại ấn tượng khó quên như chiếc vòng của sao Thổ.",
+        "ingredients": "Thành phần: trà đen, cam vàng, đào ngâm, sả tươi, hạt chia, nước cốt chanh tươi, puree đào, đá.",
+        "imageName": "image4"
+    },
+    {
+        "id": 5,
+        "drinkName": "Hubble Tea",
+        "price": "65.000 VNĐ",
+        "category": "MÓN NGON PHẢI THỬ ✨",
+        "description": "Trà sữa trân châu siêu thơm ngon với vị ngọt vừa phải, cảm giác như chìm vào trong những bức ảnh chụp thiên hà của kính Hubble.",
+        "ingredients": "Thành phần: trà đen, sữa tươi, trân châu đen.",
+        "imageName": "image5"
+    },
+    {
+        "id": 6,
+        "drinkName": "Hubble Tea",
+        "price": "65.000 VNĐ",
+        "category": "DÀNH CHO BẠN ✨",
+        "description": "Trà sữa trân châu siêu thơm ngon với vị ngọt vừa phải, cảm giác như chìm vào trong những bức ảnh chụp thiên hà của kính Hubble.",
+        "ingredients": "Thành phần: trà đen, sữa tươi, trân châu đen.",
+        "imageName": "image5"
+    },
+    {
+        "id": 7,
+        "drinkName": "Chương trình khuyến mãi tháng 9",
+        "price": "",
+        "category": "SỰ KIỆN ✨",
+        "description": "Chương trình bắt đầu từ ngày 01/09 đến hết ngày 30/09, quý khách tạo tại khoản HAHA Coffee sẽ được giảm 20% trên 1 đơn nước.",
+        "ingredients": "",
+        "imageName": "Image7"
+    }
+]

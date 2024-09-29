@@ -22,8 +22,11 @@ NOTES FOR THE FILES UPLOAD (DATE: 23/09/2024)
    
   
 SOME NOTES ÀTER SYNC (DATE : 29/09/2024)
+
 *The  MainView_Viet.swift has changed to CustomBar - layer
+
 *All the main designs are in LandingPage.swift
+
 *The naviagtion view after click on drinks has updated in FeatureView.swift
 
       

@@ -19,6 +19,8 @@ NOTES FOR THE FILES UPLOAD (DATE: 23/09/2024)
     + description
     + ingredients
     + imageName
+   
+  
 SOME NOTES ÀTER SYNC (DATE : 29/09/2024)
 *The  MainView_Viet.swift has changed to CustomBar - layer
 *All the main designs are in LandingPage.swift

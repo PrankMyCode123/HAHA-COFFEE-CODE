@@ -95,12 +95,12 @@ struct LandingPage: View {
             Image("coffee")
                 .resizable()
                 .aspectRatio(contentMode: .fill)
-                .frame(width: UIScreen.main.bounds.width / 3)
+                .frame(width: getRect().width / 3)
         }
         .padding()
         .background(.color1)
         .cornerRadius(15)
-        .padding(.horizontal)
+        .padding(.horizontal,20)
     }
     
     // Extracting the button section into a separate view

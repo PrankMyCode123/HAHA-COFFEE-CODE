@@ -29,6 +29,8 @@ SOME NOTES AFTER SYNC (DATE : 29/09/2024)
 
 *The naviagtion view after click on drinks has updated in FeatureView.swift
 
+*The DrinkDetail.swift and  CategoryItem.swift has been moved to FeatureView.swift and CategoryRow.view
+
       
      
       

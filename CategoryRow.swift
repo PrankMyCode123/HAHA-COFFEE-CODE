@@ -3,7 +3,7 @@
 //  HAHACOFFEE
 //
 //  Created by Đinh Trung Quốc Anh on 21/9/24.
-//
+// Trần Nguyễn Phương An - syncer on 29/09/2024
 
 import SwiftUI
 
@@ -13,24 +13,45 @@ struct CategoryRow: View {
     
     var body: some View {
         VStack(alignment: .leading) {
-            Text(categoryName)
-                .font(.headline)
-                .padding(.leading, 10)
-                .foregroundColor(.color2)
+            HStack {
+                Text(categoryName)
+                    .font(.headline)
+                    .padding(.leading, 10)
+                    .foregroundColor(.black)
+                Spacer()
+                Button(action: {}) {
+                    HStack(spacing: 4) {
+                        Text("Xem thêm")
+                            .font(.footnote)
+                            .fontWeight(.semibold)
+                            .foregroundColor(.pink)
+                        
+                        Image(systemName: "chevron.right")
+                            .font(.footnote)
+                            .foregroundColor(.white)
+                            .padding(.vertical, 4)
+                            .padding(.horizontal, 6)
+                            .background(Color.pink)
+                            .cornerRadius(5)
+                    }
+                }
+                .padding(.trailing, 10)
+            }
 
             ScrollView(.horizontal, showsIndicators: false) {
-                HStack(alignment: .top, spacing: 0) {
-                    ForEach(items) {drink in
-                        NavigationLink {
-                            DrinkDetail(drink: drink)
-                        } label: {
-                            CategoryItem(drink: drink)
-                                .foregroundColor(.color2)
+                HStack(alignment: .top, spacing: 10) {
+                    ForEach(items) { drink in
+                        NavigationLink(destination: FeatureView(feature: drink)) {
+                            FeatureView(feature: drink, isCompact: true)
+                                .frame(width: 150)
+                                .background(.color1) // Updated to a working color.
+                                .cornerRadius(20)
+                                .padding(.horizontal, 5)
                         }
                     }
                 }
             }
-            .frame(height: 200)
+            .frame(height: 150)
         }
         .padding(.bottom, 10)
         .background(.white)
@@ -38,9 +59,11 @@ struct CategoryRow: View {
 }
 
 #Preview {
-    let drinks = ModelData().drinks
-    return CategoryRow(
-        categoryName: drinks[0].category.rawValue,
-        items: Array(drinks.prefix(4))
-    )
+    NavigationView {
+        let drinks = ModelData().drinks
+        CategoryRow(
+            categoryName: drinks[0].category.rawValue,
+            items: Array(drinks.prefix(4))
+        )
+    }
 }

@@ -21,7 +21,7 @@ NOTES FOR THE FILES UPLOAD (DATE: 23/09/2024)
     + imageName
    
   
-SOME NOTES ÀTER SYNC (DATE : 29/09/2024)
+SOME NOTES AFTER SYNC (DATE : 29/09/2024)
 
 *The  MainView_Viet.swift has changed to CustomBar - layer
 
